@@ -16,6 +16,24 @@ A simple and clean dashboard to explore users.
 - Pagination
 - Loading & Error states
 
+## Why this approach?
+
+I focused on building a simple but production-like solution instead of over-engineering.
+
+- Used React Query to handle server state (caching, loading, error handling)
+- Chose feature-based architecture for scalability
+- Implemented debounced search to reduce unnecessary API calls
+- Kept UI clean and minimal to focus on UX
+
+## What could be improved?
+
+Given more time, I would:
+
+- Add user details modal
+- Improve pagination UX (infinite scroll or better controls)
+- Add unit/integration tests
+- Introduce design system for consistency
+
 ## Run locally
 
 ```bash
